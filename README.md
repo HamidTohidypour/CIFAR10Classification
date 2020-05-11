@@ -25,6 +25,7 @@ cd CIFAR10Classification
 
 pip install -r requirements.txt
 
+Add kernel:
 python -m ipykernel install --user --name env571
 
 jupyter notebook
