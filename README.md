@@ -22,19 +22,23 @@ conda create -n env571 python=3.6 ipykernel
 
 conda activate env571
 
-
+# Download the code and install the dependencies
 git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
 git pull
 
 cd CIFAR10Classification
 
+#install the dependenceis: 
+
 pip install -r requirements.txt
 
 #Add kernel:
+
 python -m ipykernel install --user --name env571
 
 #Open the Jupyter:
+
 jupyter notebook
 
 Open the CNNCIFAR10.ipynb
