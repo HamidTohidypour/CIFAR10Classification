@@ -7,7 +7,7 @@ Install Anaconda from the following link:
 https://www.anaconda.com/products/individual
 
 You need to scroll down to the end of the page to reach the download section.
-Find the link 64-Bit Graphical Installer for python 3.7 according to your link.
+Find the link 64-Bit Graphical Installer for python 3.7.
 Download and install Anaconda.
 
 Then install Git using the following link:
@@ -34,4 +34,4 @@ python -m ipykernel install --user --name env571
 
 jupyter notebook
 
-Open the ipynb file
+Open the CNNCIFAR10.ipynb
