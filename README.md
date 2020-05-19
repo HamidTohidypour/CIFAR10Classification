@@ -13,9 +13,11 @@ Download and install Anaconda.
 Then install Git using the following link:
 https://git-scm.com/downloads
 
-From your OS task bar Open Anaconda prompt(Anaconda3).
-Type the following commands in conda.
+From your OS task bar open Anaconda prompt(Anaconda3).
+Type the following commands in conda:
+
 conda create -n env571 python=3.6 ipykernel
+
 conda activate env571
 
 
