@@ -3,7 +3,8 @@
 This is a simple program classification of CIFAR10
 
 
-Install Anaconda from the following link:
+# Install Anaconda 
+from the following link:
 https://www.anaconda.com/products/individual
 
 You need to scroll down to the end of the page to reach the download section.
@@ -43,8 +44,11 @@ Open the CNNCIFAR10.ipynb
 In order to install Anaconda on Mac:
 Install pyenv (if you don't have it)
 $ brew update # get brew if you don't have it https://brew.sh
+
 $ brew upgrade
+
 $ brew install pyenv
+
 # check installation
 $ pyenv --version
 
@@ -58,8 +62,13 @@ $ pyenv global anaconda3-2019.10
 #please replace with your python version
 #Add path object by 
 $ export PATH=$PATH: ~/user/nusrat/pyenv/anaconda3-2019.10/ # please adjust your path
+
 $ conda create --name py python=3.7 anaconda 
+
 And check if you can run commands installed in this process.
+
 $ anaconda 
+
 $ conda 
-$ jupyter 
+
+$ jupyter
