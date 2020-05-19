@@ -54,15 +54,18 @@ $ brew upgrade
 $ brew install pyenv
 
 # check installation
-$ pyenv --version
+  pyenv --version
 
 Install Anaconda (if you don't have it)
 #Please check available versions of anaconda
-$ pyenv install -l | grep anaconda
+  pyenv install -l | grep anaconda
+
 #install a specific version. (anaconda3-2019.10 or anaconda3-5.3.0 or anaconda3-5.3.1 was latest today 19th May 2020 ) It takes a bit of time cause it’s huge. This time it took me around 7min.
-$ pyenv install anaconda3-2019.10
+
+  pyenv install anaconda3-2019.10
 #To activate you need to 
-$ pyenv global anaconda3-2019.10
+
+  pyenv global anaconda3-2019.10
 #please replace with your python version
 #Add path object by 
 $ export PATH=$PATH: ~/user/nusrat/pyenv/anaconda3-2019.10/ # please adjust your path
