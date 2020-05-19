@@ -18,30 +18,30 @@ https://git-scm.com/downloads
 From your OS task bar open Anaconda prompt(Anaconda3).
 Type the following commands in conda:
 
-conda create -n env571 python=3.6 ipykernel
+  conda create -n env571 python=3.6 ipykernel
 
-conda activate env571
+  conda activate env571
 
 # Download the code and install the dependencies
 git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
-git pull
+  git pull
 
-cd CIFAR10Classification
+  cd CIFAR10Classification
 
 #install the dependenceis: 
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 #Add kernel:
 
-python -m ipykernel install --user --name env571
+  python -m ipykernel install --user --name env571
 
 #Open the Jupyter:
 
-jupyter notebook
+  jupyter notebook
 
-Open the CNNCIFAR10.ipynb
+#Open the CNNCIFAR10.ipynb in jupyter
 
 
 # Anaconda for Mac
@@ -49,9 +49,9 @@ In order to install Anaconda on Mac:
 Install pyenv (if you don't have it)
 $ brew update # get brew if you don't have it https://brew.sh
 
-$ brew upgrade
+  brew upgrade
 
-$ brew install pyenv
+  brew install pyenv
 
 # check installation
   pyenv --version
@@ -68,14 +68,14 @@ Install Anaconda (if you don't have it)
   pyenv global anaconda3-2019.10
 #please replace with your python version
 #Add path object by 
-$ export PATH=$PATH: ~/user/nusrat/pyenv/anaconda3-2019.10/ # please adjust your path
+  export PATH=$PATH: ~/user/yourusername/pyenv/anaconda3-2019.10/ # please adjust your path
 
-$ conda create --name py python=3.7 anaconda 
+  conda create --name py python=3.7 anaconda 
 
 And check if you can run commands installed in this process.
 
-$ anaconda 
+  anaconda 
 
-$ conda 
+  conda 
 
-$ jupyter
+  jupyter
