@@ -1,6 +1,6 @@
 # CIFAR10Classification
 
-This is a simple program classification of CIFAR10
+This is a simple program for classification of CIFAR10
 
 
 # Install Anaconda 
@@ -29,7 +29,7 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
   cd CIFAR10Classification
 
-#install the dependenceis: 
+#install the dependencies: 
 
   pip install -r requirements.txt
 
