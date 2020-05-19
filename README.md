@@ -20,7 +20,9 @@ conda activate env571
 
 
 git clone https://github.com/HamidTohidypour/CIFAR10Classification
+
 git pull
+
 cd CIFAR10Classification
 
 pip install -r requirements.txt
