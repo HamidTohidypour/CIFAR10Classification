@@ -42,9 +42,17 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
   conda activate env571
 
-#Open the Jupyter:
+# Two ways of running the code
+
+#Running the code from the Anaconda's command line:
+
+  python CNNCIFAR10.py
+
+#Using Jupyter notebook:
 
   jupyter notebook
+
+
 
 #Open the CNNCIFAR10.ipynb in jupyter
 
@@ -58,7 +66,7 @@ $ brew update # get brew if you don't have it https://brew.sh
 
   brew install pyenv
 
-# check installation
+# Check installation (for Mac)
   pyenv --version
 
 Install Anaconda (if you don't have it)
