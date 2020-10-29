@@ -37,6 +37,11 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
   python -m ipykernel install --user --name env571
 
+
+# Activate the virtual environment
+
+  conda activate env571
+
 #Open the Jupyter:
 
   jupyter notebook
