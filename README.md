@@ -17,6 +17,7 @@ https://git-scm.com/downloads
 # Create a Virtual enviroment
 From your OS task bar open Anaconda prompt(Anaconda3).
 Type the following commands in conda:
+
 #Setup the virtual environment:
 
   conda create -n env571 python=3.6 ipykernel
