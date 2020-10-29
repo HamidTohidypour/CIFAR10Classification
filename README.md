@@ -44,11 +44,11 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
 # Two ways of running the code
 
-#Running the code from the Anaconda's command line:
+#1-Running the code from the Anaconda's command line:
 
   python CNNCIFAR10.py
 
-#Using Jupyter notebook:
+#2-Using Jupyter notebook:
 
   jupyter notebook
 
