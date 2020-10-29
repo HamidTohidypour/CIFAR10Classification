@@ -29,18 +29,22 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
   cd CIFAR10Classification
 
+
+
+#Add kernel and install the virtual environment (env571):
+
+  python -m ipykernel install --user --name env571
+
+#Activate the virtual environment
+
+  conda activate env571
+
 #install the dependencies: 
 
   pip install -r requirements.txt
 
-#Add kernel:
-
-  python -m ipykernel install --user --name env571
 
 
-# Activate the virtual environment
-
-  conda activate env571
 
 # Two ways of running the code
 
