@@ -17,9 +17,10 @@ https://git-scm.com/downloads
 # Create a Virtual enviroment
 From your OS task bar open Anaconda prompt(Anaconda3).
 Type the following commands in conda:
-
+#Setup the virtual environment
   conda create -n env571 python=3.6 ipykernel
 
+#Activate the virtual environment
   conda activate env571
 
 # Download the code and install the dependencies
@@ -31,13 +32,9 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
 
 
-#Add kernel and install the virtual environment (env571):
+#Add kernel for env571:
 
   python -m ipykernel install --user --name env571
-
-#Activate the virtual environment
-
-  conda activate env571
 
 #install the dependencies: 
 
