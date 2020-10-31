@@ -1,6 +1,6 @@
 # CIFAR10Classification
 
-This is a simple program for classification of CIFAR10
+This is a simple program for classification of CIFAR10 with 10 classes
 
 
 # Install Anaconda 
