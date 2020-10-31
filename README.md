@@ -33,15 +33,16 @@ git clone https://github.com/HamidTohidypour/CIFAR10Classification
 
   cd CIFAR10Classification
 
+#install the dependencies: 
+
+  pip install -r requirements.txt
 
 
 #Add kernel for env571:
 
   python -m ipykernel install --user --name env571
 
-#install the dependencies: 
 
-  pip install -r requirements.txt
 
 
 
